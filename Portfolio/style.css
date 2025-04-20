@@ -1,0 +1,150 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Navbar */
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header ul li {
+    margin-left: 20px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+  
+  header a:hover {
+    color: #ffeb3b;
+  }
+  
+  /* Home Section */
+  #home {
+    background: linear-gradient(135deg, #007bff, #00bcd4);
+    color: white;
+    text-align: center;
+    padding: 150px 5%;
+  }
+  
+  #home .btn {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #ffeb3b;
+    color: #007bff;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: all 0.3s;
+  }
+  
+  #home .btn:hover {
+    transform: translateY(-5px);
+    background-color: #fff;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 100px 5%;
+    background-color: #fff;
+  }
+  
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Profile Card */
+  .profile-card {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .profile-card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .profile-card h2 {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .profile-card p {
+    color: #555;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    margin: 40px 0;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill p {
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .progress-bar span {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  /* Experience Section */
+  .experience-section {
+    margin-top: 40px;
+  }
+  
+  .timeline {
+    margin-top: 20px;
+  }
+  
+  .timeline-item {
+    margin-bottom: 20px;
+  }
+  
+  .timeline-item h4 {
+    color: #007bff;
+  }
+  
+  .timeline-item p {
+    color: #555;
+  }
+  
