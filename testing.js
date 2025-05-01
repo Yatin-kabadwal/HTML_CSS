@@ -503,21 +503,68 @@
 
 
 //Objects are dynamic in nature 
-let obj = {
-    age : 23,
-    wt : 34,
-    ht : 232
-};
+// let obj = {
+//     age : 23,
+//     wt : 34,
+//     ht : 232
+// };
 // obj.age = 34;
 // console.log(obj);
 // obj.age= 23;
 // obj.color = "yellow";
 // console.log(obj);
 
-let clone = {...obj};
-obj.age = 19;
-console.log("clone: ",clone);
-console.log("obj: ",obj);
- //Another type of cloning is there known as destination cloning;
- let dest = Object.assign({},obj);
- console.log(dest);
+// let clone = {...obj};
+// obj.age = 19;
+// console.log("clone: ",clone);
+// console.log("obj: ",obj);
+// //Another type of cloning is there known as destination cloning also known as assign method;
+//  let dest = Object.assign({},obj);
+//  console.log(dest);
+
+
+// try{
+//     console.log("Try block start here");
+//     console.log(x);
+//     console.log(f);
+
+//     console.log("Try block ends here");
+// }
+// catch(e){
+//     console.log("I'm iniside the catch Block");
+//     console.log("You got your error here: ",e);
+// }
+
+
+// //Finally block -> this will run everytime
+
+
+// finally{
+//     console.log("I will run everytime no matter there is any kind of a error or not");
+// }
+
+
+
+
+//Let's create our  own error by using throw keyword
+
+try{
+    console.log(x);
+}
+
+catch(err){
+    throw new Error ("Bhai mere pahle declare krr le phir print mai dalna isko yrr!");
+}
+
+
+
+
+// Let's create an another error 
+let errorcode = 100;
+if(errorcode == 100){
+    throw new Error("Invalid Json");
+}
+
+
+
+
