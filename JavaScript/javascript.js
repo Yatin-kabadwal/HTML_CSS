@@ -16,3 +16,20 @@ else{
 }
 let marks ;
 console.log(marks);
+
+
+
+
+var a = [33,4,5,3,7,8,9,0];
+
+try{
+    for(i = 0; i<=a.length; i++){
+
+        const b =a[i]
+        console.log(b);
+    }
+}
+    catch (exception ){
+        console.log("Made a mistake in the porgram")
+    }
+console.log(a)
